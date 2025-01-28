@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet" />
+
+    <style>
+      .bg-hero-custom {
+        background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/RO-en-20250120-TRIFECTA-perspective_90037af4-933b-4083-bf6b-16eade23cadd_large.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <header class="relative h-[80vh] bg-hero-custom">
+      <nav
+        class="absolute flex w-full justify-between items-center px-5 sm:px-20 text-white z-10"
+      >
+        <!-- Logo -->
+        <div
+          class="bg-red-800 h-[50px] w-[100px] flex items-center justify-center text-lg font-bold"
+        >
+          LOGO
+        </div>
+
+        <!-- Language Selector and Sign-in Button -->
+        <div class="flex gap-2 items-center">
+          <select
+            class="border border-gray-500 bg-transparent text-white rounded-md py-1 px-3 text-sm focus:outline-none"
+          >
+            <option value="en">English</option>
+            <option value="ro">Română</option>
+          </select>
+
+          <button
+            class="bg-red-700 hover:bg-red-600 rounded-md py-2 px-5 text-white text-sm font-medium transition duration-200"
+          >
+            Sign in
+          </button>
+        </div>
+      </nav>
+
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-80 z-0"
+      ></div>
+
+      <div
+        class="relative z-10 flex flex-col justify-center items-center h-full text-white text-center px-5 sm:px-20"
+      >
+        <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">
+          Unlimited movies, TV shows, and more.
+        </h1>
+        <p class="text-lg sm:text-xl mb-6">Watch anywhere. Cancel anytime.</p>
+        <form class="w-full max-w-lg">
+          <div class="flex flex-col sm:flex-row gap-3">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="flex-grow py-3 px-4 rounded-md text-white outline-none text-sm bg-zinc-900"
+            />
+            <button
+              class="bg-red-700 hover:bg-red-600 text-white py-3 px-6 rounded-md font-medium text-sm transition duration-200"
+            >
+              Get Started
+            </button>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <main class="bg-zinc-900 text-white px-5 sm:px-20 py-10">
+      <div class="flex flex-col gap-10">
+        <section class="py-10">
+          <h2 class="text-2xl font-bold text-white mb-4">Trending Now</h2>
+
+          <div class="overflow-x-auto">
+            <div class="flex gap-5">
+              <div
+                class="min-w-[250px] bg-zinc-800 text-white rounded-lg p-5 shadow-lg flex flex-col justify-between"
+              >
+                <p class="text-lg font-semibold mb-2">Enjoy on your TV</p>
+                <p class="text-sm">
+                  Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+                  Blu-ray players, and more.
+                </p>
+              </div>
+
+              <div
+                class="min-w-[250px] bg-zinc-800 text-white rounded-lg p-5 shadow-lg flex flex-col justify-between"
+              >
+                <p class="text-lg font-semibold mb-2">Stream Anywhere</p>
+                <p class="text-sm">
+                  Enjoy your favorite shows on your phone, tablet, laptop, and
+                  TV.
+                </p>
+              </div>
+
+              <div
+                class="min-w-[250px] bg-zinc-800 text-white rounded-lg p-5 shadow-lg flex flex-col justify-between"
+              >
+                <p class="text-lg font-semibold mb-2">No Interruptions</p>
+                <p class="text-sm">
+                  Stream without ads and download to watch offline anytime.
+                </p>
+              </div>
+
+              <div
+                class="min-w-[250px] bg-zinc-800 text-white rounded-lg p-5 shadow-lg flex flex-col justify-between"
+              >
+                <p class="text-lg font-semibold mb-2">Multiple Profiles</p>
+                <p class="text-sm">
+                  Create profiles for everyone in your household.
+                </p>
+              </div>
+
+              <div
+                class="min-w-[250px] bg-zinc-800 text-white rounded-lg p-5 shadow-lg flex flex-col justify-between"
+              >
+                <p class="text-lg font-semibold mb-2">Kids Content</p>
+                <p class="text-sm">
+                  Safe and fun content curated just for children.
+                </p>
+              </div>
+
+              <div
+                class="min-w-[250px] bg-zinc-800 text-white rounded-lg p-5 shadow-lg flex flex-col justify-between"
+              >
+                <p class="text-lg font-semibold mb-2">Stream Anywhere</p>
+                <p class="text-sm">
+                  Enjoy your favorite shows on your phone, tablet, laptop, and
+                  TV.
+                </p>
+              </div>
+
+              <div
+                class="min-w-[250px] bg-zinc-800 text-white rounded-lg p-5 shadow-lg flex flex-col justify-between"
+              >
+                <p class="text-lg font-semibold mb-2">No Interruptions</p>
+                <p class="text-sm">
+                  Stream without ads and download to watch offline anytime.
+                </p>
+              </div>
+
+              <div
+                class="min-w-[250px] bg-zinc-800 text-white rounded-lg p-5 shadow-lg flex flex-col justify-between"
+              >
+                <p class="text-lg font-semibold mb-2">Multiple Profiles</p>
+                <p class="text-sm">
+                  Create profiles for everyone in your household.
+                </p>
+              </div>
+
+              <div
+                class="min-w-[250px] bg-zinc-800 text-white rounded-lg p-5 shadow-lg flex flex-col justify-between"
+              >
+                <p class="text-lg font-semibold mb-2">Kids Content</p>
+                <p class="text-sm">
+                  Safe and fun content curated just for children.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>More Reasons to Join</h2>
+
+          <div class="relative gap-8 flex flex-wrap">
+            <div class="bg-indigo-800 text-white rounded-lg">
+              <p class="text-lg">Enjoy on your TV</p>
+              <p class="text-sm">
+                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+                Blu-ray players, and more.
+              </p>
+            </div>
+            <div class="bg-indigo-800 text-white rounded-lg">
+              <p class="text-lg">Enjoy on your TV</p>
+              <p class="text-sm">
+                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+                Blu-ray players, and more.
+              </p>
+            </div>
+            <div class="bg-indigo-800 text-white rounded-lg">
+              <p class="text-lg">Enjoy on your TV</p>
+              <p class="text-sm">
+                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+                Blu-ray players, and more.
+              </p>
+            </div>
+            <div class="bg-indigo-800 text-white rounded-lg">
+              <p class="text-lg">Enjoy on your TV</p>
+              <p class="text-sm">
+                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+                Blu-ray players, and more.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>FAQs</h2>
+
+          <div class="flex flex-col gap-2">
+            <details>
+              <summary
+                class="bg-zinc-500 hover:bg-zinc-600 transition-all duration-500 cursor-pointer text-white text-2xl"
+              >
+                Epcot Center
+              </summary>
+              <p class="bg-zinc-500 text-white mt-1">
+                Epcot is a theme park at Walt Disney World Resort featuring
+                exciting attractions, international pavilions, award-winning
+                fireworks and seasonal special events.
+              </p>
+            </details>
+            <details>
+              <summary
+                class="bg-zinc-500 hover:bg-zinc-600 transition-all duration-500 cursor-pointer text-white text-2xl"
+              >
+                Epcot Center
+              </summary>
+              <p class="bg-zinc-500 text-white mt-1">
+                Epcot is a theme park at Walt Disney World Resort featuring
+                exciting attractions, international pavilions, award-winning
+                fireworks and seasonal special events.
+              </p>
+            </details>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>Footer with 4 columns</footer>
+  </body>
+</html>
